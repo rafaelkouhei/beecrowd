@@ -2,24 +2,15 @@
 
 int main(){
 	printf("Hello, World!\n");
-	int n = 0, a[6] = {}, valid = 0;
+	int n = 0;
 
 	printf("Insert the value:\n");
 	scanf("%d", &n);
 
-	while(valid == 0){
-		int i = 0;
-
-		if(n%2 != 0){
-			a[i] = n;
-			printf("%d\n", n);
+	for(int i = 0; i < 12; i++){
+		if((n + i)%2 != 0){
+			printf("%d\n", n+i);
 		}
-		
-		if(a[5] != 0){
-			printf("Program finished\n");
-			valid = 1;
-		}
-
 	}
 
 	return 0;
