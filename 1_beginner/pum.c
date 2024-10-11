@@ -15,7 +15,7 @@ int main(){
 		printf("%d ", x);
 		x++;
 		printf("%d ", x);
-		x++;
+		x+;
 		printf("PUM\n");
 		x++;
 	}
